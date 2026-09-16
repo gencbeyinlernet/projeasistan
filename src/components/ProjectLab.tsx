@@ -182,7 +182,7 @@ export const ProjectLab: React.FC<ProjectLabProps> = ({ studentLevel }) => {
                   className="w-full pl-11 pr-4 py-3 rounded-xl bg-slate-950/60 border border-white/10 text-white placeholder-slate-400 text-sm focus:outline-hidden focus:ring-2 focus:ring-indigo-400"
                 />
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
                 <a
                   href={
                     researchQuery.trim()
@@ -191,7 +191,7 @@ export const ProjectLab: React.FC<ProjectLabProps> = ({ studentLevel }) => {
                   }
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 sm:flex-initial flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs sm:text-sm transition-all shadow-md hover:shadow-blue-500/25 whitespace-nowrap"
+                  className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs sm:text-sm transition-all shadow-md hover:shadow-blue-500/25 whitespace-nowrap"
                   title="Google Scholar Labs'ta Aç"
                 >
                   <span>Google Scholar Labs</span>
@@ -205,7 +205,7 @@ export const ProjectLab: React.FC<ProjectLabProps> = ({ studentLevel }) => {
                   }
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 sm:flex-initial flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs sm:text-sm transition-all shadow-md hover:shadow-emerald-500/25 whitespace-nowrap"
+                  className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs sm:text-sm transition-all shadow-md hover:shadow-emerald-500/25 whitespace-nowrap"
                   title="Consensus AI'da Aç"
                 >
                   <span>Consensus.app (AI)</span>
