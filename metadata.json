@@ -1,0 +1,6 @@
+{
+  "name": "Öğrenci Akademi & Proje Platformu",
+  "description": "Öğrenciler için TEKNOFEST ve TÜBİTAK proje hazırlayıcı, sosyal sorumluluk ve geri dönüşüm atölyesi, İngilizce kelime ezberleme ve interaktif diyalog, sınav çalışma araçları ve deneme analizi sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
